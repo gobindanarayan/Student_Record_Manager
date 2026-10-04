@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Add Student</title>
+  </head>
+  <body>
+    <aside>
+      <div class="logo">
+        <h2>SRMS</h2>
+        <p>student record management system</p>
+      </div>
+
+      <nav>
+        <a href="index.html">🏠 Dashboard</a>
+        <a href="add-student.html">➕ Add Student</a>
+        <a href="#">👥 View Records</a>
+        <a href="#">🔍 Search Students</a>
+        <a href="#">✏️ Update Students</a>
+        <a href="#">🗑️ Delete Students</a>
+      </nav>
+    </aside>
+    <form>
+      <label for="name">Student Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <br /><br />
+
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required />
+
+      <br /><br />
+
+      <label for="course">Course:</label>
+      <input type="text" id="course" name="course" required />
+
+      <br /><br />
+
+      <label for="department">Department:</label>
+      <input type="text" id="department" name="department" required />
+
+      <br /><br />
+
+      <label for="admission">Admission Date:</label>
+      <input type="date" id="admission" name="admission" required />
+
+      <br /><br />
+
+      <button type="submit">Add Student</button>
+    </form>
+  </body>
+</html>
